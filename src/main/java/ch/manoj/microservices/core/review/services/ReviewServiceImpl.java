@@ -3,10 +3,10 @@ package ch.manoj.microservices.core.review.services;
 import java.util.ArrayList;
 import java.util.List;
 
-import ch.manoj.api.core.review.Review;
-import ch.manoj.api.core.review.ReviewService;
-import ch.manoj.api.exceptions.InvalidInputException;
-import ch.manoj.util.http.ServiceUtil;
+import ch.manoj.microservices.api.lib.core.review.Review;
+import ch.manoj.microservices.api.lib.core.review.ReviewService;
+import ch.manoj.microservices.api.lib.exceptions.InvalidInputException;
+import ch.manoj.microservices.util.lib.http.ServiceUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
